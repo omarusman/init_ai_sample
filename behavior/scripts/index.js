@@ -60,7 +60,7 @@ const handleGoodbye = client.createStep({
       // map inbound message classifications to names of streams
 
       // Add a greeting handler with a reference to the greeting stream
-    greeting: 'greeting'
+    greeting: 'greeting',
     goodbye: 'goodbye',
 
     },
